@@ -1,0 +1,338 @@
+*{
+    margin:0;
+    padding:0;
+}
+html{
+    scroll-behavior: smooth;
+}
+.navbar{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   position: sticky;
+   top:0;
+   cursor: auto;
+   z-index:4;
+}
+.logo{
+    width:20%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.logo img{
+   cursor: auto;
+   width:20%;
+   border:3px ;
+   border-radius:50px;
+}
+.nav-list{
+   width:80%;
+   display: flex;
+   align-items: center;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-list li{
+    list-style: none;
+    padding: 26px 10px;
+}
+  
+.nav-list li a{
+    color:whitesmoke ;
+    text-decoration: none;
+    cursor: pointer;
+}
+.nav-list li a:hover{
+    text-decoration: none;
+    color:black;
+}
+
+.background{
+    background: url(../img/bgimg.jpeg);
+    background-size: cover;
+    background-blend-mode: darken;
+    background-attachment: fixed;
+}
+
+.sec1{
+    height: 100vh;
+}
+
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width:80%;
+    flex-direction: column;
+    max-width:50%;
+    margin:auto;
+    height: 80%;
+}
+.tag{
+    font-size: 50px;
+    font-weight: 500;
+    padding-top: 60px;
+}
+.subtag{
+    font-size: 30px;
+}
+.firstsec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    flex-direction: column;
+    max-width:100%;
+    margin:auto;
+    height:100vh;
+}
+.firstsectag{
+    font-size: 50px;
+    font-weight: 500;
+}
+.thumbnail { 
+    top:-50px; 
+    left:-35px; 
+    display:block; 
+    cursor: pointer; 
+    transition: 1s;
+    } 
+
+.thumbnail:hover { 
+    transform: scale(1.3); 
+    z-index: 99;
+    }
+.secondsec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    flex-direction: column;
+    max-width:100%;
+    margin:auto;
+    height:50vh;
+}
+.secondsectag{
+    font-size: 50px;
+    font-weight: 500;
+    padding-top: 60px;
+}
+.secondsecsubtag{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.secondsec2 img{
+    width:30%;
+}
+.secondsec2{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.secondsec3 img{
+    width:30%;
+}
+.secondsec3 {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.secondsec4 img{
+    width:30%;
+}
+.secondsec4 {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.secondsec5 img{
+    width:30%;
+}
+.secondsec5 {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.thirdsec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    flex-direction: column;
+    max-width:100%;
+    margin:auto;
+    height:50vh;
+}
+.thirdsectag{
+    font-size: 50px;
+    font-weight: 500;
+}
+.thirdsec2 img{
+    width:30%;
+}
+.thirdsec2{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.thirdsec3 img{
+    width:30%;
+}
+.thirdsec3 {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.thirdsec4 img{
+    width:30%;
+}
+.thirdsec4 {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.thirdsec5 img{
+    width:30%;
+}
+.thirdsec5 {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.thirdsec6 img{
+    width:30%;
+}
+.thirdsec6 {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.fourthsec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    flex-direction: column;
+    max-width:100%;
+    margin:auto;
+    height:50vh;
+}
+.fourthsectag{
+    font-size: 50px;
+    font-weight: 500;
+}
+.wrapper{
+    margin: auto;
+    width: 1000px;
+    
+}
+.videowrapper{
+    position: relative;
+    padding-top: 25px;
+    padding-bottom: 56.25%;
+    height: 0px;
+    
+}
+.videowrapper iframe{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    height: 100%;
+    width: 100%;
+    z-index:2;
+}
+.fifthsec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    flex-direction: column;
+    max-width:100%;
+    margin:auto;
+    height:50vh;
+}
+.fifthsectag{
+    font-size: 50px;
+    font-weight: 500;
+}
+.fifthsec2 img{
+    width:30%;
+}
+.fifthsec2{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.fifthsec3 img{
+    width:30%;
+}
+.fifthsec3 {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.fifthsec4 img{
+    width:30%;
+}
+.fifthsec4 {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    flex-direction: column;
+    max-width:100%;
+    margin:auto;
+    height:80vh;
+    padding-top: 20px;
+}
+.textcentre{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    padding-top: 40px;
+}
+.form{
+    max-width: 500px;
+    margin: auto;
+}
+.form input{
+    width: 100%;
+   font-size: 19px;
+   border: 2px solid grey;
+   border-radius: 6px;
+   margin: 30px 0;
+   padding: 5px 3px;
+}
+.btndark{
+    color: whitesmoke;
+    border: 2px solid whitesmoke;
+    padding: 6px 10px;
+    margin:7px 3px;
+    border-radius:8px;
+    background: none;
+    cursor: pointer;
+}
+.textfooter{
+    text-align: center;
+    padding: 30px 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    color: whitesmoke;
+}
+ 
+
